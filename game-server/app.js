@@ -17,7 +17,7 @@ app.configure('production|development', 'gate', function(){
 app.configure('production|development', 'connector', function(){
   app.set('connectorConfig', {
       connector : pomelo.connectors.hybridconnector,
-      heartbeat : 100,
+      //heartbeat : 100,
       useDict : true,
       useProtobuf : true
   });
