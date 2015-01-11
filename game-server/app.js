@@ -28,7 +28,7 @@ app.configure('production|development', 'area', function(){
   if (!areaId || areaId < 0) {
     throw new Error('load area config failed');
   }
-  area.init(dataApi.area.findById(areaId));
+  //area.init(dataApi.area.findById(areaId));
 });
 
 // start app
